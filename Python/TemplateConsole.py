@@ -1,8 +1,11 @@
-
 import os
 import random
 from random import randint
-
+import time
+import math
+import sys
+from itertools import combinations
+from random import sample
 
 def PrintTaskDescription():
     print(" ")
@@ -35,6 +38,7 @@ def ClearConsole():
 
 
 # начало главного метода
+ClearConsole()
 PrintTaskDescription()
 isOpen = True # true задается по умолчанию для хотя бы одного запуска
 while (isOpen):
