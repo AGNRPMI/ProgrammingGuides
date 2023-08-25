@@ -261,6 +261,16 @@ list_1.append(8)     #добавление нового значения в сп
 list_1.pop()     #удаление последнего элемента
 list_1.pop(index)     #удаление элемента по индексу
 list_1.insert(index, value)     #вставка элемента по индексу
+print(list1) #вывод списка
+print(*list1) #вывод списка без скобочек и запятых
+
+for i in list1: #перебор значений в списке
+    print(i)
+
+for i in range(5):
+    list1.append(i)
+
+print(len(list1)) #длина списка
 
 ```
 
